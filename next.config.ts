@@ -1,6 +1,5 @@
 import type { NextConfig } from "next";
 
-// @ts-ignore
 const nextConfig: NextConfig = {
   output: "export",  // Enable static export for GitHub Pages
   basePath: "/BookWardensDemo20260104", // Repo name for project page
@@ -14,11 +13,11 @@ const nextConfig: NextConfig = {
     // !! WARN !!
     ignoreBuildErrors: true,
   },
-  eslint: {
-    // Warning: This allows production builds to successfully complete even if
-    // your project has ESLint errors.
-    ignoreDuringBuilds: true,
-  },
+  // eslint: {
+  //   // Warning: This allows production builds to successfully complete even if
+  //   // your project has ESLint errors.
+  //    ignoreDuringBuilds: true,
+  // },
 };
 
 export default nextConfig;
