@@ -6,6 +6,15 @@ import { ArrowLeft, BookOpen, Clock, PlayCircle } from "lucide-react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 
+// Required for static export with dynamic routes
+export async function generateStaticParams() {
+    return [
+        { bookId: "1" },
+        { bookId: "2" },
+        { bookId: "3" },
+    ];
+}
+
 // Mock data (in a real app, fetch based on params.bookId)
 const BOOK_DETAILS = {
     title: "1984",

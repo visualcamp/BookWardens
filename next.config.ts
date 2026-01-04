@@ -1,5 +1,6 @@
 import type { NextConfig } from "next";
 
+// @ts-ignore
 const nextConfig: NextConfig = {
   output: "export",  // Enable static export for GitHub Pages
   basePath: "/BookWardensDemo20260104", // Repo name for project page

@@ -7,6 +7,15 @@ import Button from "@/components/ui/Button";
 import EyeTracker from "@/components/EyeTracker";
 import clsx from "clsx";
 
+// Required for static export with dynamic routes
+export async function generateStaticParams() {
+    return [
+        { bookId: "1" },
+        { bookId: "2" },
+        { bookId: "3" },
+    ];
+}
+
 // Styled Stats Capsule - Icon Only for "Game" feel
 const StatCapsule = ({ icon: Icon, value, color }: any) => (
     <div className="flex items-center gap-2 bg-[#2a1b3d]/50 border border-[#ffffff]/10 rounded-full px-4 py-2 backdrop-blur-md shadow-lg">
