@@ -61,7 +61,7 @@ export default function IntroPage() {
                 <div className="h-8" />
 
                 {/* CTA Button */}
-                <Link href="/setup">
+                <Link href="/signup">
                     <Button
                         size="lg"
                         className="w-full min-w-[200px] text-lg font-serif shadow-[0_0_30px_rgba(157,78,221,0.5)] animate-bounce-subtle"
