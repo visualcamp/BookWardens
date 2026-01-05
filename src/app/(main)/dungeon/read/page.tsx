@@ -85,7 +85,7 @@ export default function ReadingDungeonPage() {
             </main>
 
             {/* Bottom Ink Gauge */}
-            <div className="fixed bottom-0 w-full max-w-[480px] p-6 bg-gradient-to-t from-black via-black/90 to-transparent z-50">
+            <div className="fixed bottom-[70px] w-full max-w-[480px] p-6 bg-gradient-to-t from-black via-black/90 to-transparent z-40">
                 <div className="flex justify-between text-xs font-bold text-purple-300 mb-2">
                     <span>RIFT SEAL STRENGTH</span>
                     <span>{Math.floor(inkLevel)}%</span>
