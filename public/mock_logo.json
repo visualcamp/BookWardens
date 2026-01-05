@@ -1,0 +1,10 @@
+[
+    {
+        "src": "/file.svg",
+        "description": "File Icon"
+    },
+    {
+        "src": "/globe.svg",
+        "description": "Globe Icon"
+    }
+]
