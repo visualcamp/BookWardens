@@ -25,7 +25,7 @@ export default function SetupPage() {
         } else if (step === 2 && selectedClass) {
             // Save setup data (mock) and go to main
             console.log("Setup complete:", { nickname, selectedClass });
-            router.push("/dashboard"); // Go to Main Dashboard
+            router.push("/dungeon/tutorial"); // Go to Tutorial first
         }
     };
 
